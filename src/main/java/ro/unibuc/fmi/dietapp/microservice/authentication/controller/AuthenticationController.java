@@ -11,7 +11,6 @@ import ro.unibuc.fmi.dietapp.microservice.authentication.dto.LoginDto;
 import ro.unibuc.fmi.dietapp.microservice.authentication.mapper.LoginMapper;
 import ro.unibuc.fmi.dietapp.microservice.authentication.utils.JwtUtil;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/auth")
 public class AuthenticationController {
